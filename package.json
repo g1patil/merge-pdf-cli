@@ -1,0 +1,26 @@
+{
+  "name": "merge-pdf",
+  "version": "1.0.0",
+  "description": "npm cli command line tool to merge pdf locally",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/g1patil/merge-pdf-cli.git"
+  },
+  "keywords": [
+    "cIfbod-nepki1-wypjug"
+  ],
+  "author": "jivan patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g1patil/merge-pdf-cli/issues"
+  },
+  "homepage": "https://github.com/g1patil/merge-pdf-cli#readme",
+  "dependencies": {
+    "pdf-merge": "^1.2.0"
+  }
+}
