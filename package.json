@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    
+  },
+  "bin": {
+    "merge": "./ci/merge.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,8 @@
   },
   "homepage": "https://github.com/g1patil/merge-pdf-cli#readme",
   "dependencies": {
-    "pdf-merge": "^1.2.0"
+    "easy-pdf-merge": "^0.2.3",
+    "pdf-merge": "^1.2.0",
+    "yargs": "^15.4.1"
   }
 }
