@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const merge = require('easy-pdf-merge');
+console.log("Hello World");
 var args = process.argv.slice(2);
 
 if(args.length == 0 || args.length ==1){
@@ -7,7 +8,7 @@ if(args.length == 0 || args.length ==1){
     process.exit();
 }
 
-merge(args,'output.pdf',function(err){
+merge(args,'merged-pdf.pdf',function(err){
   if(err) {
     return console.log(err)
   }

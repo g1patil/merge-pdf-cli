@@ -2,19 +2,19 @@
   "name": "merge-pdf",
   "version": "1.0.0",
   "description": "npm cli command line tool to merge pdf locally",
-  "main": "index.js",
+  "main": "ci/merge.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "merge": "./ci/merge.js"
+    "merge-pdf": "./ci/merge.js"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/g1patil/merge-pdf-cli.git"
   },
   "keywords": [
-    "cIfbod-nepki1-wypjug"
+    "merge-pdf"
   ],
   "author": "jivan patil",
   "license": "ISC",
@@ -24,7 +24,6 @@
   "homepage": "https://github.com/g1patil/merge-pdf-cli#readme",
   "dependencies": {
     "easy-pdf-merge": "^0.2.3",
-    "pdf-merge": "^1.2.0",
     "yargs": "^15.4.1"
   }
 }
