@@ -3,7 +3,7 @@ Many of us use online tools and websites to merge their pdf files. People might 
 
 ## Installation
 
-Prerequisite : Make sure you have the npm installed in your machine. You can get the letest version of npm from [here](prerequisite)
+Prerequisite : Make sure you have the npm installed in your machine. You can get the letest version of npm from [here](https://www.npmjs.com/get-npm)
 
 
 Stable version:
